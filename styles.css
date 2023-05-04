@@ -68,6 +68,14 @@ body{
     color: black;
     transition-duration: 500ms;
 }
+.cards_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    font-size: 30px;
+    font-weight: 600;
+}
 a{
     color: white;
     text-decoration: none;
