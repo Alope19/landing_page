@@ -27,12 +27,6 @@ body{
     list-style-type: none;
 
 }
-.footer{
-    margin-top: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .main{
     padding: 100px;
     gap: 20px;
@@ -84,14 +78,42 @@ body{
     flex-wrap: wrap;
 }
 .cards{
-    width: 150px;
+    width: 200px;
     text-align: center;
+    margin: 20px;
 }
 .box{
     border: 5px solid #3882f6;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
+}
+.box img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+.quote_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 150px;
+    background-color: #e5e7eb;
+    flex-direction: column;
+}
+.quote{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 100;
+}
+.footer{
+    margin-top: auto;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #ffffff;
 }
 a{
     color: white;
