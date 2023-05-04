@@ -47,7 +47,7 @@ body{
     font-size: 48px;
     font-weight:800
 }
-.main_container button{
+button{
     color: white;
     font-weight: 300;
     background-color: #3882f6;
@@ -57,7 +57,7 @@ body{
     border-radius: 10px;
     width: 100px;    
 }
-.main_container button:hover{
+button:hover{
     background-color: #ffffff;
     color: black;
     transition-duration: 500ms;
@@ -112,6 +112,7 @@ body{
     font-size: x-large;
     font-weight: 500;
 }
+
 .footer{
     margin-top: auto;
     padding: 50px;
@@ -120,6 +121,33 @@ body{
     align-items: center;
     background-color: #1f2937;
     color: #ffffff;
+}
+.action_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+.action_box{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    padding: 40px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex: wrap;
+}
+.action{
+    font-size: large;
+    font-weight: 500;
+}
+.action_sub{
+    font-weight: 100;
+}
+.action_box button{
+    border:2px solid white;
 }
 a{
     color: white;
